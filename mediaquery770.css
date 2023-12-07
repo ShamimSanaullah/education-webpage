@@ -1,0 +1,90 @@
+
+/* ---- media query for Tab webpage */
+@media only screen and (max-width: 770px ) {
+     
+    /* ---header--- */
+    #header{
+        background-image: none;
+    }
+    .container{
+        margin-right: 30px;
+        margin-left: 55px;
+    }
+    .logo{
+        margin-top: 15px;
+        width: 50px;
+    }
+    .header-text{
+        margin-top: 80px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    #menubtn{
+        width: 25px;
+        right: 30px;
+    }
+    /* ---common button--- */
+    .common-btn{
+        padding: 10px 16px;
+    }
+
+    /* --- social icon--- */
+    .social-icon img{
+        width: 12px;
+        margin: 15px auto;
+    }
+
+    /* ---about--- */
+    .about-left-col{
+        flex-basis: 100%;
+    }
+    .about-right-col, .about-left-col{
+        flex-basis: 100%;
+    }
+    .about-text{
+        margin: 48px 48px 0;
+        display: inline-block;
+    }
+    .about-right-col h2{
+       font-size: 16px;
+    }
+    .about-right-col h4{
+        font-size: 12px;
+     }
+
+     /* ---feature--- */
+     .feature-col{
+        flex-basis: 100%;
+        margin-bottom: 15px;
+     }
+    
+     /* ---course--- */
+     .course-left-col{
+        flex-basis: 100%;
+     }
+     .course-right-col{
+        flex-basis: 100%;
+        margin-top: 50px;
+     }
+     .contact-left-col, .contact-right-col{
+        flex-basis: 100%;
+     }
+
+     /* ---contact--- */
+     .contact-right-col{
+        margin-top: 40px;
+     }
+
+     /* ---footer--- */
+     .footer-left-col{
+        flex-basis: 100%;
+     }
+     .footer-right-col{
+        flex-basis: 100%;
+     }
+    .link-title{
+        flex-basis: 50%;
+        margin-bottom: 30px;
+    }
+}
